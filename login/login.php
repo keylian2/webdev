@@ -1,3 +1,5 @@
+<!--Author: Steve Yang -->
+<!--Log:  -->
 <!DOCTYPE HTML>  
 <html>
 <head>
@@ -51,7 +53,8 @@ if(isset($_POST['submit']) && !empty($_POST['submit'])){
 
 	  if (verify_user($username, $password)){
 		#$validateErr = "Login name validated!";
-		header("Location: hello.html");
+		//header("Location: hello.html");
+		header("Location: club/club.php");
 		exit();
 	   }
 	  else {
