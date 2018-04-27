@@ -1,0 +1,35 @@
+#kl_footer {
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size:16px;
+  color:white;
+  background-color: #1A5276;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5DADE2;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #AED6F1;
+}
+
+.active {
+    background-color: #1A5276;
+}
